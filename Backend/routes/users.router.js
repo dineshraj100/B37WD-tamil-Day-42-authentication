@@ -17,7 +17,7 @@ import sendEmail from '../utils/sendEmail.js';
 const router = express.Router();
 
 //!below api is front end api to use to send mail.
-const API = 'http://localhost:5173';
+const API = 'https://authentication-frontend-yse7.onrender.com';
 router.post('/signup', express.json(), async function (request, response) {
   const { email, emailVerified, password, firstName, lastName, roleId } =
     request.body;

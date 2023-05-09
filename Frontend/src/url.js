@@ -1,4 +1,3 @@
-const API = 'http://localhost:4000';
-//const API = "https://day-43-authentication-git-main-deepakkumar2205.vercel.app";
+const API = 'https://authentication-backend-109p.onrender.com';
 
 export default API;
